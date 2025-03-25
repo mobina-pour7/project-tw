@@ -8,29 +8,37 @@
   <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 <!-- 1قسمت هدر -->
 <body  class="overflow-x-hidden  ">
-  <nav class=" overflow-hidden flex space-x-24  bg-[#0A490A]  text-sm p-4  sm:p-6 sm:text-base">
-    <a href="#" class="text-white font-bold ml-30 ">FOODMART</a>
-    <a href="#" class="text-white font-stretch-50% ">Home</a>
-    <a href="#" class="text-white ">Fruit</a>
-    <a href="#" class="text-white ">Vegetable</a>
-    <img class="ml-18 w-150" src="/assests/images/pic.png" alt="">
-  </nav>
+  <div class=" bg-[#0A490A] p-4 ">
+    <div class="container mx-auto flex items-center justify-between">
+      <div class="flex items-center space-x-4 md:space-x-6">
+    <span class="text-white font-bold  ">FOODMART</span>
+    <span class="text-white font-medium ">Home</span>
+    <span class="text-white font-medium ">Fruit</span>
+    <span class="text-white font-medium ">Vegetable</span>
+      </div>
+    <img class="h-auto w-28 md:w-90 object-cover" src="/assests/images/pic.png" alt="">
+    </div></div>
   <!-- قسمت هدر2 -->
-  <header class="p-0 bg-[#FFC107] text-[#0A490A] flex-3/12 overflow-hidden">
+  <header class=" bg-[#FFC107] px-6 py-8">
+    <div class="container mx-auto flex  flex-col md:flex-row items-center justify-between gap-4">
+      <div class="flex flex-col items-center md:items-start order-2 md:order-1">
     <button
-      class="  text-[#0A490A] mt-5 rounded-lg bg-[#B4C8B1] shadow-md  ml-50 hover:bg-[#FFC107] font-semibold transition duration-300 w-40 h-8 ">
+      class="  text-[#0A490A] bg-[#B4C8B1] px-2 py-1 rounded-4xl mb-4">
       Daily Discounti </button>
-    <h1 class="text-[#0A490A] font-bold size-px ml-50 text-6xl ">Fruits§<br> Vegetables</h1>
-    <h3 class="text-[#0A490A] mt-33 font-bold ml-50 ">These superfoods are packed with vital nutrients, including
+      <div class="text-center md:text-left mb-4">
+    <h1 class="text-[#0A490A] text-3xl md:text-4xl font-bold mb-2 ">Fruits§<br>Vegetables</h1>
+    <p class="text-[#0A490A] texy-lg">These superfoods are packed with vital nutrients, including
       vitamins <br>
       and minerals that can help keep you health. Plus, they’re easy to <br>
-      enjoy-just add water and let the magic happen!</h3>
+      enjoy-just add water and let the magic happen!</p></div>
     <button
-      class="text-[#0A490A] mt-5 rounded-lg bg-[#B4C8B1]  shadow-md ml-50 hover:bg-[#FFC107] text-2xl font-bold transition duration-300 w-60 h-10">
-      View More > </button>
-    <img class="ml-140 mt-[-310px] w-20" src="/assests/images/Screenshot 2025-03-24 132808.png" alt="">
-    <img class="ml-200 mt-[-90px] w-110" src="/assests/images/0add2098-7fbb-4bd6-906d-68d7bfe42897 1.png" alt="">
-  </header>
+      class="text-[#0A490A] bg-[#B4C8B1]  font-bold px-8 py-2 rounded-3xl mt-4 hover:bg-blue-200 transition shadow-lg">
+      View More > </button></div>
+    <!-- <img class="ml-140 mt-[-310px] w-20" src="/assests/images/Screenshot 2025-03-24 132808.png" alt=""> -->
+     <div class="order-1 lg:order-2 lg:ml-12">
+    <img class="rounded-lg w-full max-w-xs md:max-w-lg " src="/assests/images/0add2098-7fbb-4bd6-906d-68d7bfe42897 1.png" alt="">
+  </header></div></div>
+  
   <!-- قسمت مین با بگ گراند سفید1 -->
   <main>
     <div class="overflow-hidden flex mt-8  p-12">
